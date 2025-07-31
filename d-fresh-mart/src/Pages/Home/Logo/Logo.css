@@ -1,0 +1,75 @@
+.Logo-Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.Logo img {
+  height: 50px;
+  width: auto;
+}
+
+.Categories button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.input-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.input-wrapper button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.button-list ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.button-list li button {
+  padding: 8px 12px;
+  background-color: #fff;
+  border-color: gray;
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-list li a {
+  text-decoration: none;
+}
+
+.button-list li a :hover {
+  background-color: rgb(8, 163, 124);
+}
