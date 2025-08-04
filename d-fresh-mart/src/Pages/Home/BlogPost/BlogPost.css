@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  padding: 10px;
+}
+.container h1 {
+  text-align: left;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: lightgrey;
+  gap: 20px;
+}
+.blog-main {
+  position: relative;
+  margin: 30px 0;
+  width: 23%;
+}
+.card {
+  border-radius: 15px;
+}
+.card-image img {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  border-radius: 15px;
+}
+.card-image img:hover {
+  transform: scale(1.05);
+}
+.meta-info .time {
+  float: left;
+  padding-right: 5px;
+}
+.meta-info .folder {
+  float: left;
+  padding-left: 5px;
+}
+.meta-info h5 {
+  float: left;
+  padding: 2px;
+
+  font-weight: 700;
+  font-size: medium;
+  text-align: left;
+}
+.meta-info .plus {
+  float: left;
+}
+.meta-info .plus-icon {
+  background-color: rgb(100, 100, 100);
+  color: green;
+  border-radius: 50%;
+  padding: 5px;
+}
+.meta-info .read {
+  padding: 5px;
+
+  font-weight: 600;
+}

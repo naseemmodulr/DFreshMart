@@ -6,6 +6,11 @@ import Slider from "./Slider/Slider";
 import Navbar from "../../Navbar";
 import Expense from "./Expense/Expense";
 import ProductList from "./ProductList/ProductList";
+import SlideCarousel from "./SlideCarousel/SlideCarousel";
+import ProductSlide from "./ProductSlide/ProductSlide";
+import Discount from "./Discount/Discount";
+import BlogPost from "./BlogPost/BlogPost";
+import ProductDiscount from "./ProductDiscount/ProductDiscount";
 function Home() {
   return (
     <div>
@@ -14,8 +19,14 @@ function Home() {
       <Logo></Logo>
       <Navbar />
       <Slider></Slider>
+      <SlideCarousel></SlideCarousel>
       <Expense></Expense>
+
       <ProductList></ProductList>
+      <ProductSlide></ProductSlide>
+      <Discount></Discount>
+      <BlogPost></BlogPost>
+      <ProductDiscount></ProductDiscount>
     </div>
   );
 }

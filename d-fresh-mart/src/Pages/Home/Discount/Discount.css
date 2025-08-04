@@ -1,0 +1,72 @@
+.containers {
+  width: 100%;
+}
+
+.discount {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  background-color: lightgrey;
+}
+
+.discount .discount-card {
+  position: relative;
+  float: left;
+  width: 23%;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: none;
+}
+.discount-card img {
+  position: relative;
+  width: 100%;
+}
+.discount-card button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 10px;
+  padding: 15px 5px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+.discount-card h2 {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  margin: 10px;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 25px;
+}
+.discount-card h4 {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  margin: 10px;
+  color: green;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.discount-card .icon {
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  margin: 10px;
+  color: white;
+  background-color: green;
+}
+.shop {
+  position: absolute;
+  top: 160px;
+  left: 60px;
+  margin: 10px;
+  font-weight: 700;
+  font-size: larger;
+}

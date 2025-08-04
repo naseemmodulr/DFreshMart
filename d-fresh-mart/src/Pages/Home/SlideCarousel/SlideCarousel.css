@@ -1,0 +1,34 @@
+.slider-wrapper {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.slider-wrapper h1 {
+  margin-bottom: 20px;
+  color: #222;
+  font-size: 2.5rem;
+}
+
+.slider-item {
+  padding: 10px;
+}
+
+.slider-item figure {
+  width: 50%;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-item figure img {
+  float: left;
+  position: static;
+}

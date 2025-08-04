@@ -1,5 +1,9 @@
 import React from "react";
-import "./ProductList.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./ProductSlide.css";
+
 import productImg1 from "../../../images/productimg1.jpeg";
 import productImg2 from "../../../images/productimg2.jpeg";
 import productImg3 from "../../../images/productimg3.jpeg";
@@ -12,10 +16,11 @@ import productImg9 from "../../../images/productimg9.jpeg";
 import productImg10 from "../../../images/productimg10.jpeg";
 import productImg11 from "../../../images/productimg11.jpeg";
 import productImg12 from "../../../images/productimg12.jpeg";
+
 const productItems = [
   {
     id: 1,
-    name: " Profitable business makes your profit",
+    name: "Details Profitable business makes your profit",
     price: 29,
     image: productImg1,
   },
@@ -87,27 +92,47 @@ const productItems = [
   },
 ];
 
-function ProductList() {
-  return (
-    <div className="containers">
-      <div className="product-list-page">
-        <div className="row">
-          <div className="product-grid">
-            {productItems.map((product) => (
-              <div className="product-card">
-                <img src={product.image} alt={product.name} />
+function ProductSlide() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 700,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: { slidesToShow: 3 },
+      },
+      {
+        breakpoint: 768,
+        settings: { slidesToShow: 2 },
+      },
+      {
+        breakpoint: 480,
+        settings: { slidesToShow: 1 },
+      },
+    ],
+  };
 
-                <h3>{product.name}</h3>
-                <h6>500g Pack</h6>
-                <p>${product.price.toFixed(2)}</p>
-                <button>Add to Cart</button>
-              </div>
-            ))}
+  return (
+    <div className="product-list-carousel">
+      <h2>Our Products</h2>
+      <Slider {...settings}>
+        {productItems.map((product) => (
+          <div key={product.id} className="product-card">
+            <img src={product.image} alt={product.name} />
+            <h3>{product.name}</h3>
+            <h6>500g Pack</h6>
+            <p>${product.price.toFixed(2)}</p>
+            <button>Add to Cart</button>
           </div>
-        </div>
-      </div>
+        ))}
+      </Slider>
     </div>
   );
 }
 
-export default ProductList;
+export default ProductSlide;
