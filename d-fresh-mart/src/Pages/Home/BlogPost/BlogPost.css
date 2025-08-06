@@ -1,15 +1,15 @@
-.container {
+.containers {
   width: 100%;
-  padding: 10px;
+  padding: 20px;
 }
-.container h1 {
+.containers h1 {
   text-align: left;
 }
 .main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: lightgrey;
+  background-color: none;
   gap: 20px;
 }
 .blog-main {
@@ -50,7 +50,7 @@
   float: left;
 }
 .meta-info .plus-icon {
-  background-color: rgb(100, 100, 100);
+  background-color: lightgrey;
   color: green;
   border-radius: 50%;
   padding: 5px;

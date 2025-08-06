@@ -7,7 +7,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-color: lightgray;
+  background-color: lightgrey;
   gap: 20px;
 }
 
@@ -28,9 +28,10 @@
 }
 .card-discount {
   position: relative;
-  margin: 10px 0;
+  margin: 20px 0;
   float: left;
   width: 100%;
+  height: 30vh;
 }
 .card-discount img {
   width: 100%;
@@ -38,36 +39,34 @@
 .card-discount .carddiscount-body {
   position: absolute;
   top: 0;
+  padding: 10px;
 }
+.discounts-card {
+  float: left;
+  width: 100%;
 
+  height: 30vh;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(11, 12, 12, 0.1);
+  margin: 20px auto;
+  background-color: white;
+}
 .discount-cardleft {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 .discount-cardright {
   float: right;
-  width: 50%;
-}
-
-.discounts-card {
-  float: left;
-  width: 100%;
-  max-width: 80%;
-  height: 30vh;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(20, 139, 219, 0.1);
-  margin: 12px auto;
-  padding: 10px;
+  width: 60%;
 }
 
 .discounts-card img {
   width: 100%;
-  float: left;
   transition: transform 0.3s ease;
-  padding: 20px;
-  border: 2px solid rgb(152, 144, 144);
+  margin: 10px;
+  border: 2px solid rgb(167, 163, 163);
   border-radius: 10px;
 }
 .discounts-card img:hover {
@@ -77,6 +76,7 @@
 }
 .discountcard-body {
   float: right;
+  padding: 20px;
 }
 .discounts-card h3 {
   font-size: medium;
@@ -88,7 +88,7 @@
   font-size: 15px;
   text-align: left;
 }
-.discounst-card p {
+.discounts-card p {
   color: rgb(134, 36, 36);
   font-size: 20px;
   font-weight: 500;
@@ -98,7 +98,10 @@
   float: right;
   border-radius: 5px;
   border: 2px solid green;
-  padding: 5px;
-  color: green;
+  color: white;
+  background-color: green;
+}
+.discounts-card button:hover {
   background-color: white;
+  color: green;
 }

@@ -10,7 +10,7 @@ import BlogImg3 from "../../../images/blogimg3.jpeg";
 import BlogImg4 from "../../../images/blogimg4.jpeg";
 function BlogPost() {
   return (
-    <div className="container">
+    <div className="containers">
       <h1>Latest Blog Post Insights</h1>
 
       <div className="main">

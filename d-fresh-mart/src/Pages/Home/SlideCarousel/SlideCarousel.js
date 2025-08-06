@@ -21,20 +21,20 @@ const SlideCarousel = () => {
     dots: true,
     infinite: true,
     speed: 800,
-    slidesToShow: 3,
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2500,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: { slidesToShow: 2 },
-      },
-      {
-        breakpoint: 600,
-        settings: { slidesToShow: 1 },
-      },
-    ],
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: { slidesToShow: 2 },
+    //   },
+    //   {
+    //     breakpoint: 600,
+    //     settings: { slidesToShow: 1 },
+    //   },
+    // ],
   };
 
   const slides = [

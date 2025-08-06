@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.nav {
+  display: flex;
+  justify-content: center; /* Horizontally center the links */
+  align-items: center;
+  gap: 40px; /* Space between links */
+  background-color: #fff; /* Set your desired background */
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: green; /* Optional hover effect */
+}

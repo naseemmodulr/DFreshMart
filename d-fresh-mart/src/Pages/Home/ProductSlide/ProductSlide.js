@@ -120,13 +120,15 @@ function ProductSlide() {
   return (
     <div className="product-list-carousel">
       <h2>Our Products</h2>
+
       <Slider {...settings}>
         {productItems.map((product) => (
-          <div key={product.id} className="product-card">
+          <div key={product.id} className="products-card">
             <img src={product.image} alt={product.name} />
+
             <h3>{product.name}</h3>
-            <h6>500g Pack</h6>
-            <p>${product.price.toFixed(2)}</p>
+            <h5>500g Pack</h5>
+            <h6>${product.price.toFixed(2)}</h6>
             <button>Add to Cart</button>
           </div>
         ))}

@@ -1,5 +1,6 @@
 .containers {
   width: 100%;
+  padding: 20px;
 }
 
 .discount {
@@ -7,8 +8,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  position: relative;
-  background-color: lightgrey;
+  margin: 20px 0;
 }
 
 .discount .discount-card {

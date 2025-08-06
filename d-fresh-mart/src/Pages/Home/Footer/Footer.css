@@ -1,0 +1,26 @@
+.containers {
+  width: 100%;
+  float: left;
+}
+.footer {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", sans-serif;
+}
+.footer-section h3 {
+  text-align: left;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  color: #777;
+  margin: 8px 0;
+  cursor: pointer;
+  text-align: left;
+}
