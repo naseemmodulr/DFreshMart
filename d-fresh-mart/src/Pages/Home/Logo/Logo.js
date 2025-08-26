@@ -1,6 +1,7 @@
 import React from "react";
 import "./Logo.css";
-import logo from "../../../images/logo-01.svg";
+//import logo from "../../../images/logo-01.svg";
+import LOGO from "../../../images/LOGO.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
 
@@ -8,7 +9,7 @@ function Logo() {
   return (
     <nav className="Logo-Nav">
       <div className="Logo">
-        <img src={logo} alt="logo"></img>
+        <img src={LOGO} alt="logo"></img>
       </div>
       <div className="Categories">
         <button>

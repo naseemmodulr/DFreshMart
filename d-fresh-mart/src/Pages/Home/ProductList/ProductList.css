@@ -3,7 +3,6 @@
   width: 100%;
   overflow: hidden;
   background-color: rgb(232, 229, 229);
-  padding: 10px;
 }
 
 .product-card {
@@ -46,7 +45,7 @@
   text-align: left;
 }
 .product-card button {
-  float: right;
+  float: left;
   border-radius: 5px;
   border: 2px solid green;
   padding: 5px;

@@ -16,7 +16,7 @@ function App() {
           <Link className="nav-link" to="/product">
             Product
           </Link>
-          <Link className="nav-link" to="/chekout">
+          <Link className="nav-link" to="/checkout">
             Checkout
           </Link>
         </nav>

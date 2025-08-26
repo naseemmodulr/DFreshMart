@@ -6,7 +6,8 @@
   background-color: lightgrey;
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  margin: 20px;
+  padding: 20px;
   flex-wrap: wrap;
   font-family: "Segoe UI", sans-serif;
 }

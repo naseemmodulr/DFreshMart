@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProductDetails.css";
-import productImg1 from "../../../images/productimg1.jpeg";
+import productimg1 from "../../../images/productimg1.jpeg";
 import proimg1 from "../../../images/proimg1.svg";
 import proimg2 from "../../../images/proimg2.svg";
 import proimg3 from "../../../images/proimg3.svg";
@@ -10,14 +10,15 @@ function ProductDetails() {
     <div className="containers">
       <div className="ProductDetails">
         <div className="left-side">
-          <img src={productImg1} alt="product img"></img>
+          <img src={productimg1} alt="productimg"></img>
         </div>
+
         <div className="right-side">
           <h2>Details Profitable business makes your profit</h2>
           <p>
             Priyoshop has brought to you the Hijab 3 Pieces Combo Pack PS23...
           </p>
-          <h6>$29.00</h6>
+          <h4>$29.00</h4>
           <button>Add to Cart</button>
         </div>
         <div className="right-end">

@@ -42,8 +42,7 @@
   align-items: center;
   gap: 40px; /* Space between links */
   background-color: #fff; /* Set your desired background */
-  padding: 15px 0;
-  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
 }
 
 .nav-link {
@@ -55,4 +54,12 @@
 
 .nav-link:hover {
   color: green; /* Optional hover effect */
+}
+
+.nav {
+  position: absolute;
+  width: 100%;
+  top: 170px;
+
+  z-index: 10;
 }

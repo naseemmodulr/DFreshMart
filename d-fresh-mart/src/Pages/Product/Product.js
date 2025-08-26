@@ -5,7 +5,7 @@ import Logo from "../Home/Logo/Logo";
 import ProductDetails from "./ProductDetails/ProductDetails";
 import ProductSlide from "../Home/ProductSlide/ProductSlide";
 import Footer from "../Home/Footer/Footer";
-import Expenses from "./Expense/Expenses";
+import Expenses from "./Expensed/Expenses";
 
 function Product() {
   return (
@@ -17,8 +17,6 @@ function Product() {
       <ProductSlide></ProductSlide>
       <Expenses></Expenses>
       <Footer></Footer>
-
-      <div className="magbify"></div>
     </div>
   );
 }
